@@ -1,0 +1,53 @@
+/* General styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  background: rgba(255,255,255,0.3);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 2px 2px #ff6a00;
+}
+
+p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+/* Buttons */
+.game-button {
+  background: #ff6a00;
+  color: #fff;
+  padding: 15px 25px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.game-button:hover {
+  background: #ff3a00;
+  transform: scale(1.05);
+}
+
+/* Game container */
+#game-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 15px;
+  min-height: 200px;
+}
